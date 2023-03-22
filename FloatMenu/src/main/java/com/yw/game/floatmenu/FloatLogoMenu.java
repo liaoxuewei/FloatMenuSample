@@ -693,7 +693,7 @@ public class FloatLogoMenu {
     /**
      * 打开菜单
      */
-    private void openMenu() {
+    public void openMenu() {
         if (isDrag) return;
 
         if (!isExpanded) {
